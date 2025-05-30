@@ -1,0 +1,6 @@
+grpc:
+  client:
+    stock-trading-service:
+      address: static://localhost:9090
+      enableKeepAlive: true
+      negotiationType: plaintext
